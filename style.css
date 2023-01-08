@@ -35,9 +35,10 @@ input {
 
 blockquote {
     font-family: 'Indie Flower', cursive;
+    font-size: 35px;
     position: relative;
-    margin: 0.5em;
-    padding: 0.5em 2em 0.5em 3em;
+    margin: 10px;
+    padding: 60px 0 0 0;
 }
 
 blockquote:before {
@@ -45,7 +46,7 @@ blockquote:before {
     position: absolute;
     font-size: 100px;
     line-height: 1;
-    top: -10px;
+    top: 10px;
     left: 0;
     content: "\201C";
 }
@@ -56,7 +57,7 @@ blockquote:after {
     font-size:100px;
     line-height: 1;
     right:0;
-    bottom: -5px;
+    bottom: -1px;
     content: "\201D";
 }
 blockquote footer {
@@ -64,7 +65,7 @@ blockquote footer {
     text-align:right;
 }
 blockquote cite:before {
-    content: "\2013";
+  content: "\2013";
 }
 
 input[type="submit"] {
