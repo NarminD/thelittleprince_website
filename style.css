@@ -1,0 +1,39 @@
+html, body {
+  height: 100%;
+  width: auto%;
+  text-align: center;
+  background: url("https://i.ibb.co/s6v8QND/little-prince-stars.jpg");
+  background-size: cover;
+  color: rgb(10, 80, 170);
+  font-family: 'Indie Flower', cursive;
+}
+
+h1 {
+  font-size: 70px;
+
+}
+
+h3 {
+  font-size: 25px;
+}
+
+h5 {
+  font-size: 20px;
+}
+
+p {
+  font-size: 35px;
+  padding: 100px 0 0 0;
+}
+
+input {
+  border: 0;
+  padding: 10px;
+  font-size: 15px;
+  margin: 0 0 100px 0;
+}
+
+input[type="submit"] {
+  background: yellow;
+  color: rgb(10, 80, 170);
+}
